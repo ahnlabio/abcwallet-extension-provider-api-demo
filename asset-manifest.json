@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/abcwallet-extension-provider-api-demo/static/css/main.c01c3850.chunk.css",
+    "main.js": "/abcwallet-extension-provider-api-demo/static/js/main.05562c68.chunk.js",
+    "main.js.map": "/abcwallet-extension-provider-api-demo/static/js/main.05562c68.chunk.js.map",
+    "runtime-main.js": "/abcwallet-extension-provider-api-demo/static/js/runtime-main.1c83bba4.js",
+    "runtime-main.js.map": "/abcwallet-extension-provider-api-demo/static/js/runtime-main.1c83bba4.js.map",
+    "static/js/2.f72d6d1d.chunk.js": "/abcwallet-extension-provider-api-demo/static/js/2.f72d6d1d.chunk.js",
+    "static/js/2.f72d6d1d.chunk.js.map": "/abcwallet-extension-provider-api-demo/static/js/2.f72d6d1d.chunk.js.map",
+    "index.html": "/abcwallet-extension-provider-api-demo/index.html",
+    "static/css/main.c01c3850.chunk.css.map": "/abcwallet-extension-provider-api-demo/static/css/main.c01c3850.chunk.css.map",
+    "static/js/2.f72d6d1d.chunk.js.LICENSE.txt": "/abcwallet-extension-provider-api-demo/static/js/2.f72d6d1d.chunk.js.LICENSE.txt",
+    "static/media/Frame.e1369206.svg": "/abcwallet-extension-provider-api-demo/static/media/Frame.e1369206.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1c83bba4.js",
+    "static/js/2.f72d6d1d.chunk.js",
+    "static/css/main.c01c3850.chunk.css",
+    "static/js/main.05562c68.chunk.js"
+  ]
+}
