@@ -1,0 +1,50 @@
+<<<<<<< HEAD
+# ignore ALL .db files
+*.db
+
+# ignore ALL .pyc files
+*.pyc
+
+# ignore ALL files in ANY directory named log 
+logs/
+
+# ignore ALL files in ANY directory named __pycache__
+__pychache__/
+
+# ignore ALL files in ANY directory named .vscode
+.vscode/
+
+# ignore ALL files in ANY directory named .venv
+.venv/
+
+# ignore docker config file
+docker.conf
+
+# ignore local libtsscan.so
+libtsscan.so
+node_modules
+=======
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+>>>>>>> develop
