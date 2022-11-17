@@ -207,16 +207,17 @@ button.disconnect-button:active::before {
 .completed {
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 500;
-    font-size: 26px;
-    line-height: 39px;
-    margin: 0px;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
 }
 
 .app-details {
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 39px;
+    margin: 0px;
 }

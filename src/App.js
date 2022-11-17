@@ -37,6 +37,7 @@ function App() {
     try {
       // this returns the provider, or null if it wasn't detected
       const provider = await ABCProvider();
+      console.log(provider)
       if (provider) {
 
         // web3 객체가 있으면 계정 정보를 가져 옵니다. Ethereum에 RPC 요청을 제출하는 데 사용 합니다.
@@ -77,8 +78,8 @@ function App() {
   const saveUserInfo = (ethBalance, account, chainId) => {
     const userAccount = {
       account: account,
-      balance: ethBalance,
-      connectionid: chainId,
+      // balance: ethBalance,
+      // connectionid: chainId,
     };
     window.sessionStorage.setItem('userAccount', JSON.stringify(userAccount)); //유지될 사용자 데이터
     const userData = JSON.parse(sessionStorage.getItem('userAccount'));
@@ -114,19 +115,10 @@ function App() {
           isConnected && (
             <>
               <div className="data-wrapper">
-                <h2 className='completed'><b>Completed !</b></h2>
-                <div className="app-details">
-                  <span><b>Account number : </b></span>
+                <div className='completed'><b>Successfully connected to wallet address</b></div>
+                <h2 className="app-details">
                   {userInfo.account}
-                </div>
-                <div className="app-details">
-                  <span><b>Balance : </b></span>
-                  {userInfo.balance}
-                </div>
-                <div className="app-details">
-                  <span><b>Connection ID : </b></span>
-                  {userInfo.connectionid}
-                </div>
+                </h2>
               </div>
               <div>
                 <button className="disconnect-button" onClick={onDisconnect}>
